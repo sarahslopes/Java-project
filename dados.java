@@ -5,7 +5,7 @@ public class dados {
     String nome;
     String sexo;
     int ap;
-    int codigo = 1;
+    int codigo;
     int bloco, cpf, cel, data;
 
     public dados(String nome, String sexo, int ap, int cpf, int cel, int data, int codigo, int bloco) {
@@ -17,9 +17,6 @@ public class dados {
         this.data = data;
         this.codigo = codigo;
         this.bloco = bloco;
-
-        codigo++;
-
     }
 
     public dados() {

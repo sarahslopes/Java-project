@@ -1,5 +1,6 @@
 package classe;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -9,6 +10,7 @@ public class cadastroVetor {
     }
 
     public static void menu1() {
+
         Scanner sc1 = new Scanner(System.in);
         System.out.println("\n======CADASTRO DE MORADORES======");
         System.out.println("[1] Cadastrar moradores");
@@ -31,12 +33,13 @@ public class cadastroVetor {
 
     public static void cadastrar() {
         Scanner sc1 = new Scanner(System.in);
+
         ArrayList<dados> lista = new ArrayList<dados>();
 
         System.out.println("Deseja cadastrar quantos moradores?");
-        int moradores = sc1.nextInt();
+        int op = sc1.nextInt();
 
-        for (int i = 0; i < moradores; i++) {
+        for (int i = 0; i < op; i++) {
 
             dados morador = new dados(); // criação do obj
 
