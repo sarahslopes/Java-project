@@ -1,3 +1,3 @@
 # Java-project
 
-Pequenas aplicações com finalidade de treino
+Apicações desenvolvidas para estudo da liguagem
